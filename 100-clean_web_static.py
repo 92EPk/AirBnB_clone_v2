@@ -7,7 +7,7 @@ fab -f 100-clean_web_static.py do_clean:number=2 -i ssh-key -u ubuntu > /dev/nul
 import os
 from fabric.api import *
 
-env.hosts = ['54.236.46.77', '54.237.76.176']
+env.hosts = ['54.227.222.93', '34.207.57.19']
 
 
 def do_clean(number=0):
